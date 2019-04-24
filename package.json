@@ -1,17 +1,20 @@
 {
-  "author": "Ramesh Perumalsamy",
+  "name": "elasticsearch-statsd-backend",
+  "description": "An Elasticsearch backend for statsd",
+  "version": "0.4.3",
+  "author": "Francis Gulotta <wizard@roborooter.com>",
   "contributors": [
+    {
+      "name": "Ramesh Perumalsamy"
+    },
     {
       "name": "Mark Kimsal"
     }
   ],
-  "name": "statsd-elasticsearch-backend",
-  "description": "A StatsD backend for Elasticsearch",
-  "version": "0.4.2",
-  "homepage": "https://github.com/markkimsal/statsd-elasticsearch-backend",
+  "homepage": "https://github.com/reconbot/elasticsearch-statsd-backend",
   "repository": {
     "type": "git",
-    "url": "git://github.com/markkkimsal/statsd-elasticsearch-backend.git"
+    "url": "git://github.com/reconbot/elasticsearch-statsd-backend.git"
   },
   "keywords": [
     "elasticsearch",
