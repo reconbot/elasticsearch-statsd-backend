@@ -4,7 +4,7 @@ Elasticsearch backend for statsd
 
 ## Overview
 
-This backend allows [Statsd][statsd] to save to [Elasticsearch][elasticsearch].  Supports dynamic index creation and custom index templates.
+This backend allows [Statsd](https://github.com/statsd/statsd) to save to [Elasticsearch](https://www.elastic.co/products/elasticsearch).  Supports dynamic index creation and custom index templates.
 
 ## History
 
@@ -17,7 +17,7 @@ $ npm install elasticsearch-statsd-backend
 
 ```
 
-Requires node 6+ which is the highest node statsd supports.
+Requires node 6+ which is the highest node statsd supports. It has been tested on Elasticsearch 6 and 7.
 
 ## Configuration
 
