@@ -1,7 +1,7 @@
 {
   "name": "elasticsearch-statsd-backend",
   "description": "An Elasticsearch backend for statsd",
-  "version": "0.4.3",
+  "version": "1.0.0",
   "author": "Francis Gulotta <wizard@roborooter.com>",
   "scripts": {
     "lint": "eslint **/*.js"
