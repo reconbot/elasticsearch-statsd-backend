@@ -29,6 +29,7 @@ This backend looks for configuration under the `elasticsearch` key in your stats
 	// debug: true,
   elasticsearch: {
     url: 'http://localhost:9200/', // The url of your elasticserach server
+    shutdownOnStartupError: false, // process.exit statsd if the templates cannot be created on startup helpful in docker environments
     indexPrefix:'statsd_' // Prefix of the dynamic index to be created
     indexTimestamp: 'day' // hour | day | month  - timestamp specificity for index naming
     counterIndexName: 'counter',
